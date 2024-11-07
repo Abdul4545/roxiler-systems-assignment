@@ -37,6 +37,7 @@ const getTransactions = async (req, res) => {
       currentPage: page,
       perPage,
       totalCount,
+      sold,
     });
   } catch (error) {
     res.status(500).json({
