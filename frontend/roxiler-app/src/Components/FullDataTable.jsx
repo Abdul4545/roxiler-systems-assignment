@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css'; // Import the CSS file for styles
+import '../App.css'; 
 
-// Full Data Table Component
 const FullDataTable = ({ data }) => {
     console.log(data);
     

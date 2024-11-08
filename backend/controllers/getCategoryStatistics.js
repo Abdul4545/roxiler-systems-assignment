@@ -1,7 +1,5 @@
-// controllers/getCategoryStatistics.js
-const Transaction = require('../models/Transaction'); // Import the Transaction model
+const Transaction = require('../models/Transaction'); 
 
-// Controller to get category statistics for the given month (ignoring year)
 const getCategoryStatistics = async (req, res) => {
   try {
     const { month } = req.query;  // Get month from query params

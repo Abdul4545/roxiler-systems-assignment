@@ -5,8 +5,7 @@ exports.getPriceRangeStatistics = async (req, res) => {
     try {
       const { month } = req.query; 
       const parsedMonth = parseInt(month); 
-      
-      // Log for debugging
+
       console.log('Month:', parsedMonth);
   
       // Fetch all transactions
